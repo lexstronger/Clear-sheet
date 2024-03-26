@@ -59,6 +59,11 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   line-height: 19.2px;
 }
 
+.header__menu-link:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
 .cover {
   padding: 7px 24px 32px 20px;
   min-height: 258px;
@@ -223,4 +228,9 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   font-size: 14px;
   font-weight: 400;
   line-height: 125%;
+}
+
+.footer__links a:hover {
+  opacity: 0.3;
+  cursor: pointer;
 }
